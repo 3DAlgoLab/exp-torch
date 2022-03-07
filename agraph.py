@@ -12,4 +12,5 @@ if __name__ == "__main__":
     print('Start!')
     print(torch.__version__)
     print('Scalar inputs:', compute_z(torch.tensor(1),
-                                      torch.tensor(2), torch.tensor(3)))
+                                      torch.tensor(2),
+                                      torch.tensor(3)))
